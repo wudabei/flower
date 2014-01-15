@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WXFaceScrollerView">
+            <connections>
+                <outlet property="description" destination="5Nn-Le-h3s" id="Fae-u7-oU4"/>
+                <outlet property="details" destination="CC7-1z-32r" id="e2Y-V5-aMJ"/>
+                <outlet property="name" destination="tNl-Gh-ef7" id="5PY-o1-5tr"/>
+                <outlet property="pageController" destination="8Ih-dm-Kic" id="QrG-X5-TbT"/>
+                <outlet property="price" destination="y8E-Zf-QKM" id="7oD-Xq-K7X"/>
+                <outlet property="scrollVIEW" destination="yoV-XP-RdS" id="55S-3C-JTZ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="0gS-Qr-IX5">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view alpha="0.59999999999999964" tag="12" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Etc-DV-FEH" userLabel="bounds">
+                    <rect key="frame" x="0.0" y="400" width="320" height="168"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="400" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8E-Zf-QKM" userLabel="price">
+                            <rect key="frame" x="200" y="115" width="72" height="53"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                            <color key="textColor" white="0.26787750910000002" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="RMB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1q-b3-eQM" userLabel="danwei">
+                            <rect key="frame" x="261" y="130" width="40" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                            <color key="textColor" white="0.26787750910000002" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bucket@.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cem-iM-j85">
+                            <rect key="frame" x="12" y="34" width="27" height="32"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thefe@.png" translatesAutoresizingMaskIntoConstraints="NO" id="F0E-hY-1vZ">
+                            <rect key="frame" x="12" y="75" width="29" height="27"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="圆形藤编篮" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Nn-Le-h3s">
+                            <rect key="frame" x="49" y="79" width="252" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.14807876280000001" green="0.14807876280000001" blue="0.14807876280000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="花篮上镜直径18cm" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CC7-1z-32r">
+                            <rect key="frame" x="46" y="32" width="241" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.58003826530000002" green="0.58003826530000002" blue="0.58003826530000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="蓝紫镶边白玫瑰" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNl-Gh-ef7">
+                            <rect key="frame" x="46" y="48" width="269" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" white="0.26787750910000002" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RqH-Zb-yRI">
+                            <rect key="frame" x="0.0" y="113" width="320" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.63109853319999998" green="0.63109853319999998" blue="0.63109853319999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="8Ih-dm-Kic">
+                            <rect key="frame" x="118" y="-10" width="84" height="37"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="pageIndicatorTintColor" white="0.84668681569343063" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="currentPageIndicatorTintColor" red="0.56777269616818793" green="1" blue="0.29778032534110443" alpha="1" colorSpace="calibratedRGB"/>
+                        </pageControl>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.56765852279745044" blue="0.55447356772261613" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="y8E-Zf-QKM" secondAttribute="trailing" constant="48" id="6bs-4P-MAw"/>
+                        <constraint firstAttribute="height" constant="168" id="6jv-b5-BIn"/>
+                        <constraint firstAttribute="trailing" secondItem="h1q-b3-eQM" secondAttribute="trailing" constant="19" id="9Ie-eF-kOp"/>
+                        <constraint firstItem="y8E-Zf-QKM" firstAttribute="top" secondItem="RqH-Zb-yRI" secondAttribute="bottom" id="HNr-os-Y96"/>
+                        <constraint firstItem="y8E-Zf-QKM" firstAttribute="bottom" secondItem="h1q-b3-eQM" secondAttribute="bottom" constant="8" id="SF3-R2-cAl"/>
+                        <constraint firstAttribute="bottom" secondItem="y8E-Zf-QKM" secondAttribute="bottom" id="mmF-tb-kla"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xDk-Xd-rfJ" userLabel=" n">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="400"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yoV-XP-RdS">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="400"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        </scrollView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.7851433004818269" green="1" blue="0.93757803640720783" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="xDk-Xd-rfJ" firstAttribute="top" secondItem="0gS-Qr-IX5" secondAttribute="top" id="C6V-UT-bCX"/>
+                <constraint firstAttribute="bottom" secondItem="Etc-DV-FEH" secondAttribute="bottom" id="K2L-ed-Maq"/>
+                <constraint firstAttribute="centerX" secondItem="xDk-Xd-rfJ" secondAttribute="centerX" id="Uzp-UM-ZQ8"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="bucket@.png" width="80" height="80"/>
+        <image name="thefe@.png" width="80" height="80"/>
+    </resources>
+</document>

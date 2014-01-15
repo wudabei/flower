@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5F54A8B3-58A7-43B4-AD9C-EB23A1D35FC1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Qing</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>896AB4BA-CE8B-4D57-8E6D-CFD0179612DE</key>
+		<string>https://bitbucket.org/garywuu/qingapp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Qing/Qing.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>896AB4BA-CE8B-4D57-8E6D-CFD0179612DE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/garywuu/qingapp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>896AB4BA-CE8B-4D57-8E6D-CFD0179612DE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>896AB4BA-CE8B-4D57-8E6D-CFD0179612DE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Project</string>
+		</dict>
+	</array>
+</dict>
+</plist>
